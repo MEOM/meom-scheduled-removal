@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ruleset name="Project Rules">
+    <rule ref="MEOM-default" />
+
+    <exclude-pattern>/build/*</exclude-pattern>
+    <exclude-pattern>/node_modules/*</exclude-pattern>
+
+    <!-- Verify that the text_domain is set to the desired text-domain. -->
+    <rule ref="WordPress.WP.I18n">
+        <properties>
+            <property name="text_domain" type="array">
+                <element value="meom-scheduled-removal"/>
+            </property>
+        </properties>
+    </rule>
+</ruleset>

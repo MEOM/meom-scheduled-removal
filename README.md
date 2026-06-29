@@ -5,6 +5,14 @@ post sidebar, and when that moment arrives the post is automatically set to
 `draft`. The date is stored in native post meta and edited with the core
 Gutenberg `DateTimePicker` — no ACF required.
 
+## Installation
+
+Use Composer to install the package.
+
+```bash
+composer require meom/meom-scheduled-removal
+```
+
 ## How editors use it
 
 1. Open a post in the block editor.

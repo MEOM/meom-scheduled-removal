@@ -14,5 +14,10 @@
     "require-dev": {
         "meom/phpcs-composer": "dev-main"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
 }
